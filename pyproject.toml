@@ -1,0 +1,32 @@
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | env
+  | __pycache__
+  | build
+  | dist
+)/
+'''
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+exclude = ["env", ".venv", "__pycache__"]
+
+[tool.ruff.lint]
+select = ["F", "E"]
+ignore = ["E501"]
+fixable = ["ALL"]
+unfixable = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+docstring-code-line-length = 88
+
