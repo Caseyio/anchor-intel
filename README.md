@@ -45,7 +45,23 @@ Frontend
    * Ending cash balance vs. system total
    * Highlighted KPIs and anomalies
 
-🧾 Project Structure
+## 🧭 Project Milestones
+
+The Anchor POS system is under continuous development. Key milestones include:
+
+- ✅ Phase 1: Core POS features (checkout, returns, inventory, receipts)
+- ✅ Phase 2: Cashier-friendly UI with keyboard-first UX
+- ✅ Phase 3: Real-time receipt search & printing
+- ✅ Phase 4: Inventory-aware analytics and product performance metrics
+- 🔄 Phase 5: Cashier/Manager Closeout Workflow (In Progress)
+- 🔜 Phase 6: AI Assistant Integration for Smart Queries and Charts
+- 🔜 Phase 7: Cloud sync & multi-terminal support🧾 Project Structure
+
+## 🧱 System Architecture
+
+The Anchor POS system follows a modular architecture:
+
+![Anchor POS Architecture](./assets/anchor-pos-architecture.png)
 
 Backend: anchor-pos-backend
 
