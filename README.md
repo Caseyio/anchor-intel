@@ -57,12 +57,6 @@ The Anchor POS system is under continuous development. Key milestones include:
 - 🔜 Phase 6: AI Assistant Integration for Smart Queries and Charts
 - 🔜 Phase 7: Cloud sync & multi-terminal support🧾 Project Structure
 
-## 🧱 System Architecture
-
-The Anchor POS system follows a modular architecture:
-
-![Anchor POS Architecture](./assets/anchor-pos-architecture.png)
-
 Backend: anchor-pos-backend
 
 ├── app/
