@@ -45,36 +45,6 @@ Frontend
    * Ending cash balance vs. system total
    * Highlighted KPIs and anomalies
 
-🛠️ Getting Started
-
-Backend Setup
-
-# Clone backend
-$ git clone https://github.com/YOUR-USERNAME/anchor-pos-backend.git
-$ cd anchor-pos-backend
-
-# Set up virtual environment
-$ python -m venv env
-$ source env/bin/activate
-
-# Install dependencies
-$ pip install -r requirements.txt
-
-# Run server
-$ uvicorn app.main:app --reload
-
-Frontend Setup
-
-# Clone frontend
-$ git clone https://github.com/YOUR-USERNAME/anchor-pos-frontend.git
-$ cd anchor-pos-frontend
-
-# Install dependencies
-$ npm install
-
-# Run Vite dev server
-$ npm run dev
-
 🧾 Project Structure
 
 Backend: anchor-pos-backend
