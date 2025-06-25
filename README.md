@@ -93,11 +93,11 @@ Frontend: anchor-pos-frontend
 ├── package.json
 └── README.md
 
-🌟 Contributing
+## 🔒 Source Code
 
-Pull requests and feedback are welcome! The goal is to make Anchor POS a powerful, extensible system for independent retailers across industries.
+The source code for this project is proprietary and not publicly available.
 
-🧑‍💻 Author
+For a live demo or collaboration inquiry, please contact:
 
 Casey Ortiz🔗 linkedin.com/in/kco1 📫 kcarlos.ortiz@gmail.com
 
