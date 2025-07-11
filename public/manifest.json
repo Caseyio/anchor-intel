@@ -1,0 +1,25 @@
+{
+  "short_name": "Anchor POS",
+  "name": "Anchor Point of Sale System",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1E3A8A",
+  "background_color": "#FFFFFF",
+  "description": "Anchor POS – A powerful offline-ready retail point-of-sale system for liquor stores."
+}
