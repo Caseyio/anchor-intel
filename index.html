@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512.png" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Meta Tags for Responsive & PWA -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1E3A8A" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="Anchor POS – A powerful offline-ready point-of-sale system for liquor stores." />
+
+    <title>Anchor POS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="modal-root"></div>
+
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- ✅ Register Service Worker -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js').then(
+            (registration) => {
+              console.log('✅ Service Worker registered:', registration);
+            },
+            (error) => {
+              console.error('❌ Service Worker registration failed:', error);
+            }
+          );
+        });
+      }
+    </script>
+  </body>
+</html>

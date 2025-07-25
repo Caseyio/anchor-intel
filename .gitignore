@@ -1,18 +1,69 @@
-# Python
+# ========== NODE & FRONTEND ==========
+node_modules/
+dist/
+.build/
+.vite/
+.cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency resolution
+.pnp/
+.pnp.js
+
+# Coverage & test output
+coverage/
+*.lcov
+
+# ========== PYTHON & BACKEND ==========
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-.env
+*.egg
+*.egg-info/
 env/
 venv/
+.venv/
 
-# VS Code
-.vscode/
+# Python packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+pip-wheel-metadata/
+*.manifest
+*.spec
 
-# Logs
-logs/
-*.log
-
-# OS
+# ========== SYSTEM & IDE FILES ==========
 .DS_Store
+.vscode/
+.idea/
+
+# ========== BACKUP OUTPUT ==========
+backups/
+*.tar.gz
+*.tar.bz2
+
+# ========== DOCKER ==========
+**/.env.docker
+.docker-compose.override.yml
+docker-compose.override.yml
+docker.env
+
+# ========== MISC ==========
+*.log
+logs/
+*.sqlite3
+*.db

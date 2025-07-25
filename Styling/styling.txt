@@ -1,0 +1,69 @@
+🧭 Anchor POS Cashier UI Style Guide
+1. 🔍 Search Bar
+
+Size: width: 300px–100%, height: 48px
+Font: 1rem (16px) or larger, monospace or clean sans-serif
+Padding: 12px horizontal, 8px vertical
+Border: 2px solid #ccc, border-radius: 6px
+Focus: Blue outline or shadow (outline: 2px solid #60a5fa)
+2. 📦 Suggestions Dropdown
+
+Container:
+White background
+Rounded border: 6px
+Box shadow: subtle (shadow-md)
+Max 5 items, scrollable if longer
+Items:
+Padding: 10px
+Font size: 16px–18px
+Highlighted item: light gray background (bg-gray-100)
+Arrow key support required (⬆⬇ + Enter)
+3. 🛒 Cart / Return Item List
+
+Layout: Stacked vertically, each item in a card
+Card Styling:
+Padding: 12px
+Border: 1px solid #ddd
+Rounded corners: 6px
+Margin-bottom: 8–12px
+Font:
+Name: bold, 16px–18px
+SKU / price: muted gray, 12px–14px
+Controls:
+Quantity input: min width 60px, centered number
+Remove button: red, visible, finger-sized
+Toggle (restock, etc.): large enough to tap
+4. 💳 Payment & Modals
+
+Modal container: max-width: 400px, centered
+Buttons:
+Big, clear, actionable
+Width: 100% or at least 120px
+Height: 44px+
+Font: bold, legible
+Color:
+Confirm: green (bg-green-600)
+Cancel: gray or red (bg-gray-400, bg-red-500)
+Touch feedback: active:scale-95, hover effects
+5. 📄 Receipt Display
+
+Max Width: xs or 300px
+Font: monospace, 12px–14px
+Padding: 16px
+Spacing:
+Line items: 8px vertical
+Totals: emphasized with font-bold, spacing between each
+6. 🎨 Color & Spacing
+
+Primary Blue: #3b82f6
+Accent Green: #16a34a
+Error Red: #dc2626
+Font: monospace or clean sans-serif (font-mono, font-sans)
+Padding: p-4 minimum on all sides of the page
+Spacing between blocks: gap-4 or mb-4 for readability
+7. 💡 Accessibility
+
+All inputs & buttons must:
+Support keyboard (tab, enter, escape, arrows)
+Be labeled clearly
+Have high-contrast text
