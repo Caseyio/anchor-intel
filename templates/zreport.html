@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Z-Report - {{ date }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; font-size: 12px; }
+        h1, h2 { margin-bottom: 0; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #aaa; padding: 4px 8px; text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>Z-Report</h1>
+    <p><strong>Date:</strong> {{ date }}</p>
+    <p><strong>Total Sales:</strong> ${{ total_sales }}</p>
+    <p><strong>Total Cash:</strong> ${{ total_cash }}</p>
+    <p><strong>Total Card:</strong> ${{ total_card }}</p>
+    <p><strong>Total Returns:</strong> ${{ total_returns }}</p>
+
+    <h2>Cashier Sessions</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Cashier</th><th>Open</th><th>Close</th><th>Opening Cash</th>
+                <th>Closing Cash</th><th>System Total</th><th>Difference</th><th>Over/Short</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for s in sessions %}
+            <tr>
+                <td>{{ s.cashier_name }}</td>
+                <td>{{ s.opened_at }}</td>
+                <td>{{ s.closed_at or '-' }}</td>
+                <td>${{ "%.2f"|format(s.opening_cash) }}</td>
+                <td>${{ "%.2f"|format(s.closing_cash or 0) }}</td>
+                <td>${{ "%.2f"|format(s.system_cash_total or 0) }}</td>
+                <td>${{ "%.2f"|format(s.cash_difference or 0) }}</td>
+                <td>{% if s.is_over_short %}YES{% else %}NO{% endif %}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Top Sellers</h2>
+    <table>
+        <thead><tr><th>Name</th><th>Units Sold</th></tr></thead>
+        <tbody>
+            {% for p in top_sellers %}
+            <tr><td>{{ p.name }}</td><td>{{ p.units_sold }}</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

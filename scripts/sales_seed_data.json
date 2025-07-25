@@ -1,0 +1,862 @@
+[
+  {
+    "total_amount": 15.99,
+    "timestamp": "2025-07-07T10:55:14.984526Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 7,
+        "quantity": 1,
+        "price": 15.99
+      }
+    ]
+  },
+  {
+    "total_amount": 38.98,
+    "timestamp": "2025-07-05T16:18:38.984593Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 4,
+        "quantity": 2,
+        "price": 19.49
+      }
+    ]
+  },
+  {
+    "total_amount": 91.95,
+    "timestamp": "2025-07-06T20:26:20.984616Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 5,
+        "quantity": 3,
+        "price": 18.49
+      },
+      {
+        "product_id": 9,
+        "quantity": 1,
+        "price": 22.49
+      },
+      {
+        "product_id": 6,
+        "quantity": 1,
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "total_amount": 110.94,
+    "timestamp": "2025-07-09T10:15:41.984641Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 9,
+        "quantity": 2,
+        "price": 22.49
+      },
+      {
+        "product_id": 10,
+        "quantity": 3,
+        "price": 15.49
+      },
+      {
+        "product_id": 4,
+        "quantity": 1,
+        "price": 19.49
+      }
+    ]
+  },
+  {
+    "total_amount": 15.49,
+    "timestamp": "2025-07-08T18:52:12.984679Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 10,
+        "quantity": 1,
+        "price": 15.49
+      }
+    ]
+  },
+  {
+    "total_amount": 18.49,
+    "timestamp": "2025-07-09T21:36:42.984701Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 5,
+        "quantity": 1,
+        "price": 18.49
+      }
+    ]
+  },
+  {
+    "total_amount": 42.97,
+    "timestamp": "2025-07-07T12:37:59.984720Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 1,
+        "quantity": 1,
+        "price": 14.99
+      },
+      {
+        "product_id": 6,
+        "quantity": 2,
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "total_amount": 57.96,
+    "timestamp": "2025-07-04T15:17:09.984749Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 3,
+        "quantity": 2,
+        "price": 10.99
+      },
+      {
+        "product_id": 2,
+        "quantity": 2,
+        "price": 17.99
+      }
+    ]
+  },
+  {
+    "total_amount": 99.45,
+    "timestamp": "2025-07-07T10:30:28.984764Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 7,
+        "quantity": 2,
+        "price": 15.99
+      },
+      {
+        "product_id": 9,
+        "quantity": 3,
+        "price": 22.49
+      }
+    ]
+  },
+  {
+    "total_amount": 94.45,
+    "timestamp": "2025-07-09T19:45:42.984776Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 2,
+        "quantity": 2,
+        "price": 17.99
+      },
+      {
+        "product_id": 4,
+        "quantity": 3,
+        "price": 19.49
+      }
+    ]
+  },
+  {
+    "total_amount": 47.97,
+    "timestamp": "2025-07-09T13:52:33.984789Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 7,
+        "quantity": 3,
+        "price": 15.99
+      }
+    ]
+  },
+  {
+    "total_amount": 46.97,
+    "timestamp": "2025-07-08T20:53:49.984799Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 10,
+        "quantity": 2,
+        "price": 15.49
+      },
+      {
+        "product_id": 7,
+        "quantity": 1,
+        "price": 15.99
+      }
+    ]
+  },
+  {
+    "total_amount": 79.94,
+    "timestamp": "2025-07-08T11:37:22.984811Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 3,
+        "quantity": 2,
+        "price": 10.99
+      },
+      {
+        "product_id": 1,
+        "quantity": 2,
+        "price": 14.99
+      },
+      {
+        "product_id": 6,
+        "quantity": 2,
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "total_amount": 64.95,
+    "timestamp": "2025-07-06T10:34:32.984825Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 7,
+        "quantity": 2,
+        "price": 15.99
+      },
+      {
+        "product_id": 3,
+        "quantity": 3,
+        "price": 10.99
+      }
+    ]
+  },
+  {
+    "total_amount": 40.48,
+    "timestamp": "2025-07-04T14:17:00.984837Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 2,
+        "quantity": 1,
+        "price": 17.99
+      },
+      {
+        "product_id": 9,
+        "quantity": 1,
+        "price": 22.49
+      }
+    ]
+  },
+  {
+    "total_amount": 53.96,
+    "timestamp": "2025-07-10T17:12:18.984855Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 8,
+        "quantity": 2,
+        "price": 12.99
+      },
+      {
+        "product_id": 6,
+        "quantity": 2,
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "total_amount": 105.44,
+    "timestamp": "2025-07-08T14:36:48.984869Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 5,
+        "quantity": 3,
+        "price": 18.49
+      },
+      {
+        "product_id": 6,
+        "quantity": 1,
+        "price": 13.99
+      },
+      {
+        "product_id": 2,
+        "quantity": 2,
+        "price": 17.99
+      }
+    ]
+  },
+  {
+    "total_amount": 90.94,
+    "timestamp": "2025-07-06T12:58:12.984891Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 1,
+        "quantity": 2,
+        "price": 14.99
+      },
+      {
+        "product_id": 8,
+        "quantity": 1,
+        "price": 12.99
+      },
+      {
+        "product_id": 7,
+        "quantity": 3,
+        "price": 15.99
+      }
+    ]
+  },
+  {
+    "total_amount": 91.95,
+    "timestamp": "2025-07-10T11:10:03.984914Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 3,
+        "quantity": 1,
+        "price": 10.99
+      },
+      {
+        "product_id": 4,
+        "quantity": 3,
+        "price": 19.49
+      },
+      {
+        "product_id": 9,
+        "quantity": 1,
+        "price": 22.49
+      }
+    ]
+  },
+  {
+    "total_amount": 113.43,
+    "timestamp": "2025-07-10T21:49:57.984929Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 1,
+        "quantity": 2,
+        "price": 14.99
+      },
+      {
+        "product_id": 10,
+        "quantity": 3,
+        "price": 15.49
+      },
+      {
+        "product_id": 5,
+        "quantity": 2,
+        "price": 18.49
+      }
+    ]
+  },
+  {
+    "total_amount": 45.97,
+    "timestamp": "2025-07-05T13:39:27.984942Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 1,
+        "quantity": 1,
+        "price": 14.99
+      },
+      {
+        "product_id": 10,
+        "quantity": 2,
+        "price": 15.49
+      }
+    ]
+  },
+  {
+    "total_amount": 30.98,
+    "timestamp": "2025-07-09T21:48:07.984954Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 10,
+        "quantity": 2,
+        "price": 15.49
+      }
+    ]
+  },
+  {
+    "total_amount": 58.47,
+    "timestamp": "2025-07-09T21:10:55.984964Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 4,
+        "quantity": 3,
+        "price": 19.49
+      }
+    ]
+  },
+  {
+    "total_amount": 52.96,
+    "timestamp": "2025-07-08T11:24:44.984974Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 3,
+        "quantity": 2,
+        "price": 10.99
+      },
+      {
+        "product_id": 10,
+        "quantity": 2,
+        "price": 15.49
+      }
+    ]
+  },
+  {
+    "total_amount": 121.43,
+    "timestamp": "2025-07-09T13:44:53.984989Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 10,
+        "quantity": 3,
+        "price": 15.49
+      },
+      {
+        "product_id": 1,
+        "quantity": 2,
+        "price": 14.99
+      },
+      {
+        "product_id": 9,
+        "quantity": 2,
+        "price": 22.49
+      }
+    ]
+  },
+  {
+    "total_amount": 89.94,
+    "timestamp": "2025-07-04T16:54:07.985011Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 7,
+        "quantity": 3,
+        "price": 15.99
+      },
+      {
+        "product_id": 6,
+        "quantity": 3,
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "total_amount": 29.98,
+    "timestamp": "2025-07-09T10:17:07.985040Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 1,
+        "quantity": 2,
+        "price": 14.99
+      }
+    ]
+  },
+  {
+    "total_amount": 99.93,
+    "timestamp": "2025-07-08T15:12:23.985053Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 8,
+        "quantity": 1,
+        "price": 12.99
+      },
+      {
+        "product_id": 1,
+        "quantity": 3,
+        "price": 14.99
+      },
+      {
+        "product_id": 6,
+        "quantity": 3,
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "total_amount": 79.45,
+    "timestamp": "2025-07-05T20:45:28.985065Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 3,
+        "quantity": 2,
+        "price": 10.99
+      },
+      {
+        "product_id": 5,
+        "quantity": 1,
+        "price": 18.49
+      },
+      {
+        "product_id": 4,
+        "quantity": 2,
+        "price": 19.49
+      }
+    ]
+  },
+  {
+    "total_amount": 125.94,
+    "timestamp": "2025-07-06T17:07:27.985079Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 4,
+        "quantity": 3,
+        "price": 19.49
+      },
+      {
+        "product_id": 9,
+        "quantity": 3,
+        "price": 22.49
+      }
+    ]
+  },
+  {
+    "total_amount": 105.44,
+    "timestamp": "2025-07-10T18:51:25.985090Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 6,
+        "quantity": 1,
+        "price": 13.99
+      },
+      {
+        "product_id": 5,
+        "quantity": 3,
+        "price": 18.49
+      },
+      {
+        "product_id": 2,
+        "quantity": 2,
+        "price": 17.99
+      }
+    ]
+  },
+  {
+    "total_amount": 83.94,
+    "timestamp": "2025-07-06T20:43:21.985109Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 3,
+        "quantity": 1,
+        "price": 10.99
+      },
+      {
+        "product_id": 6,
+        "quantity": 3,
+        "price": 13.99
+      },
+      {
+        "product_id": 10,
+        "quantity": 2,
+        "price": 15.49
+      }
+    ]
+  },
+  {
+    "total_amount": 58.47,
+    "timestamp": "2025-07-10T19:53:22.985128Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 4,
+        "quantity": 3,
+        "price": 19.49
+      }
+    ]
+  },
+  {
+    "total_amount": 44.98,
+    "timestamp": "2025-07-09T17:15:30.985139Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 9,
+        "quantity": 2,
+        "price": 22.49
+      }
+    ]
+  },
+  {
+    "total_amount": 77.96,
+    "timestamp": "2025-07-05T15:43:48.985158Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 9,
+        "quantity": 1,
+        "price": 22.49
+      },
+      {
+        "product_id": 5,
+        "quantity": 3,
+        "price": 18.49
+      }
+    ]
+  },
+  {
+    "total_amount": 115.93,
+    "timestamp": "2025-07-06T19:32:32.985178Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 9,
+        "quantity": 2,
+        "price": 22.49
+      },
+      {
+        "product_id": 7,
+        "quantity": 2,
+        "price": 15.99
+      },
+      {
+        "product_id": 8,
+        "quantity": 3,
+        "price": 12.99
+      }
+    ]
+  },
+  {
+    "total_amount": 60.97,
+    "timestamp": "2025-07-06T21:38:35.985193Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 7,
+        "quantity": 1,
+        "price": 15.99
+      },
+      {
+        "product_id": 9,
+        "quantity": 2,
+        "price": 22.49
+      }
+    ]
+  },
+  {
+    "total_amount": 69.95,
+    "timestamp": "2025-07-09T20:38:30.985205Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 8,
+        "quantity": 3,
+        "price": 12.99
+      },
+      {
+        "product_id": 10,
+        "quantity": 2,
+        "price": 15.49
+      }
+    ]
+  },
+  {
+    "total_amount": 44.98,
+    "timestamp": "2025-07-08T13:04:54.985216Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 9,
+        "quantity": 2,
+        "price": 22.49
+      }
+    ]
+  },
+  {
+    "total_amount": 50.47,
+    "timestamp": "2025-07-09T13:10:02.985227Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 9,
+        "quantity": 1,
+        "price": 22.49
+      },
+      {
+        "product_id": 6,
+        "quantity": 2,
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "total_amount": 45.97,
+    "timestamp": "2025-07-05T15:27:12.985238Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 6,
+        "quantity": 1,
+        "price": 13.99
+      },
+      {
+        "product_id": 7,
+        "quantity": 2,
+        "price": 15.99
+      }
+    ]
+  },
+  {
+    "total_amount": 111.42,
+    "timestamp": "2025-07-10T15:15:55.985256Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 3,
+        "quantity": 3,
+        "price": 10.99
+      },
+      {
+        "product_id": 7,
+        "quantity": 2,
+        "price": 15.99
+      },
+      {
+        "product_id": 10,
+        "quantity": 3,
+        "price": 15.49
+      }
+    ]
+  },
+  {
+    "total_amount": 55.47,
+    "timestamp": "2025-07-07T18:02:34.985282Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 5,
+        "quantity": 3,
+        "price": 18.49
+      }
+    ]
+  },
+  {
+    "total_amount": 99.44,
+    "timestamp": "2025-07-09T19:45:26.985300Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 7,
+        "quantity": 2,
+        "price": 15.99
+      },
+      {
+        "product_id": 1,
+        "quantity": 3,
+        "price": 14.99
+      },
+      {
+        "product_id": 9,
+        "quantity": 1,
+        "price": 22.49
+      }
+    ]
+  },
+  {
+    "total_amount": 22.49,
+    "timestamp": "2025-07-08T18:55:40.985323Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 9,
+        "quantity": 1,
+        "price": 22.49
+      }
+    ]
+  },
+  {
+    "total_amount": 48.46,
+    "timestamp": "2025-07-08T21:11:36.985341Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 3,
+        "quantity": 3,
+        "price": 10.99
+      },
+      {
+        "product_id": 10,
+        "quantity": 1,
+        "price": 15.49
+      }
+    ]
+  },
+  {
+    "total_amount": 36.98,
+    "timestamp": "2025-07-05T14:41:10.985353Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 5,
+        "quantity": 2,
+        "price": 18.49
+      }
+    ]
+  },
+  {
+    "total_amount": 15.99,
+    "timestamp": "2025-07-05T19:44:59.985368Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 7,
+        "quantity": 1,
+        "price": 15.99
+      }
+    ]
+  },
+  {
+    "total_amount": 81.95,
+    "timestamp": "2025-07-05T10:50:11.985386Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 7,
+        "quantity": 2,
+        "price": 15.99
+      },
+      {
+        "product_id": 2,
+        "quantity": 2,
+        "price": 17.99
+      },
+      {
+        "product_id": 6,
+        "quantity": 1,
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "total_amount": 72.45,
+    "timestamp": "2025-07-06T18:51:23.985402Z",
+    "payment_type": "cash",
+    "items": [
+      {
+        "product_id": 1,
+        "quantity": 1,
+        "price": 14.99
+      },
+      {
+        "product_id": 10,
+        "quantity": 1,
+        "price": 15.49
+      },
+      {
+        "product_id": 6,
+        "quantity": 3,
+        "price": 13.99
+      }
+    ]
+  }
+]

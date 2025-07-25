@@ -1,11 +1,33 @@
-from databases import Database
-import sqlalchemy
+import os
 from sqlalchemy import create_engine
-from . import tables  # noqa: F401  # ensures metadata is populated before create_all()
+from sqlalchemy.orm import sessionmaker
+from dotenv import load_dotenv
 
-# Database setup
-DATABASE_URL = "postgresql+psycopg2://caseyortiz@localhost/liquor_store"
+from app.models.models import Base
 
-database = Database(DATABASE_URL)
-metadata = sqlalchemy.MetaData()
+# ─────────────────────────────
+# Load environment variables
+# ─────────────────────────────
+load_dotenv()
+
+# ─────────────────────────────
+# Database Configuration
+# ─────────────────────────────
+DATABASE_URL = os.getenv(
+    "DATABASE_URL",
+    "postgresql+psycopg2://caseyortiz@localhost/liquor_store",  # fallback for local dev
+)
+
 engine = create_engine(DATABASE_URL)
+SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
+
+
+# ─────────────────────────────
+# Dependency Injection
+# ─────────────────────────────
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
